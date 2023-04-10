@@ -93,7 +93,29 @@ body {
 }
 
 .img-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+.img:hover {
+  background-image: url(images/icon-view.svg);
+  background-color: lineear-gradient;
+  z-index: 10;
+  cursor: pointer;
+  position: inherit;
+}
+
+.view {
+  transition: .02s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .about {
@@ -104,6 +126,12 @@ body {
   font-weight: 500;
   color: white;
   padding: 15px 0;
+  cursor: pointer;
+
+}
+
+.tag:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .desc {
@@ -175,4 +203,9 @@ body {
 
 .pic-by span {
   color: white;
+  cursor: pointer;
+}
+
+.pic-by span:hover {
+  color: hsl(178, 100%, 50%);
 }
