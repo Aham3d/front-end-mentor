@@ -89,7 +89,7 @@ body {
   height: 490px;
   width: 280px; 
   border-radius: 10px;
-
+  box-shadow: 1px 4px 20px 1px rgba(0, 0, 0, 0.1);
 }
 
 .img-con {
